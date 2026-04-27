@@ -21,8 +21,11 @@ pip install -r requirements.txt
 ## W&B
 
 Create account at: https://wandb.ai/site/
+
 pip install wandb
+
 wandb login
+
 Use & create API Key to login: https://wandb.ai/authorize?ref=models
 
 ---
