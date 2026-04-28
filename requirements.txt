@@ -1,0 +1,17 @@
+# core libraries
+torch
+transformers
+datasets
+wandb
+numpy
+pandas
+
+# RAG
+faiss-cpu
+rank-bm25
+ruptures
+
+# display
+matplotlib
+seaborn
+tqdm
