@@ -1,6 +1,8 @@
 # core libraries
 torch
 transformers
+accelerate
+sentencepiece
 datasets
 wandb
 numpy
@@ -9,6 +11,7 @@ pandas
 # RAG
 faiss-cpu
 rank-bm25
+sentence-transformers
 ruptures
 
 # display
