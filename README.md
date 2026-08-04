@@ -2,13 +2,13 @@
 
 ## Overview
 
-This project studies why hallucinations still happen in Retrieval-Augmented Generation (RAG) systems, even when relevant evidence is retrieved.
+We propose the Evidence Adherence Analysis Framework (EAAF), a framework consisting of existing mechanistic interpretability methods and retrieval-conditioned KL divergence to analyze retrieval influence at each layer of the network in two RAG models with distinct architectures: BioMistral and BioMedLM. This enables examination into how, where, and to what extent retrieved context shapes internal model behavior, independent of what appears at the output level.
 
 ---
 
 # Research Question
 
-Can hallucinations in clinical RAG systems be detected internally before they appear in final outputs?
+How does retrieved evidence (in RAG) influence the internal, layer-by-layer representations of clinical language models, and is the evidence integration process consistent across different model architectures?
 
 ---
 
